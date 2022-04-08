@@ -1,12 +1,12 @@
 <?php
-    class projetoConsultorio{
+    class Usuario{
         public int $id;
         public string $nome;
         public string $CPF;
         public string $telefone;
         public string $dataNasc;
         public string $email;
-        private string $senha;
+        public string $senha;
 
         public function __construct(string $nome, string $CPF, string $telefone, string $dataNasc, string $email, string $senha){
             $this->nome = $nome;
