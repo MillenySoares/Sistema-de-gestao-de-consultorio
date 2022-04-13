@@ -12,8 +12,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="../estilo/estilo.css"/>
-        <title>Olá, mundo!</title>
+        <link rel="stylesheet" href="../css/ESTILO.css"/>
+        <title>Sistema de Gestão</title>
         </head>
     <body>
         <?php

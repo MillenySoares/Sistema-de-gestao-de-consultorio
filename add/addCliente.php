@@ -9,6 +9,6 @@
 
   session_start();
   $_SESSION['novo_cliente'] = $novoCliente->nome;
-  header("Location: ../pages/pageCadastro.php");
+  header("Location: ../view/cadastro.php");
     
 ?>

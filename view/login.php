@@ -1,5 +1,6 @@
 <?php
     include("../includes/cabecalho.php");
+    session_start();
 ?>
 <section class="container-fluid">
     <div class="row bg-header height">
@@ -15,16 +16,12 @@
 </section>
 <section class="container-fluid menu">
     <div class="row">
-        <div class="col-4 shadow p-3 mb-5 bg-white box-shadow text-center"> 
-            <div class="text-center cadastro">CADASTRA-SE</div>
-            <form class="mr-4 mt-2 " method="POST" action="../add/addCliente.php">
-                <input class="input" type="text" name="nome" value="" placeholder="nome completo"/>
-                <input class="input" type="text" name="CPF" value="" placeholder="CPF"/>
-                <input class="input" type="text" name="dataNasc" value="" placeholder="data de nascimento"/>
-                <input class="input" type="text" name="telefone" value="" placeholder="telefone"/>
+        <div class="col-4 shadow p-3 mb-5 bg-white box-shadow-login text-center"> 
+            <div class="text-center cadastro">Bem-Vindo!</div>
+            <form class="mr-4 mt-2 " method="POST" action="verificar_login.php">
                 <input class="input" type="text" name="email" value="" placeholder="email"/>
                 <input class="input" type="text" name="senha" value="" placeholder="senha"/> <br>
-                <input type="submit" class="btn button" value="Criar"/> 
+                <input type="submit" class="btn button" value="logar"/> 
             </form>
         </div>
     </div>
